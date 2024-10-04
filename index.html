@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>signup</title>
+</head>
+<body>
+    <div class="container   mt-5 pb-5 ">
+        <div class="row text-center justify-content-center align-items-center">
+       <div class="col-md-12 ">
+        <h1 class="d-block mt-5 mb-3">Smart Login System</h1>
+        <input type="text" class="form-control bg-transparent text-info  mb-3 mx-auto" id="username"  placeholder="Enter Your name">
+              <input type="email" class="form-control bg-transparent text-info mx-auto " id="useremail"  placeholder="Enter Your email">
+              
+              <div class="alert alert-danger bg-transparent text-danger mt-3 border-danger d-none mx-auto" role="alert">
+                this email is in-valid ,it must be a valid one
+              </div>
+              <p class="text-danger mt-2 d-none exit">This email already exists. Please write another email</p>
+
+                
+            
+              <input type="password" class="form-control bg-transparent mt-3 text-info  forming mx-auto " id="userpass"  placeholder="Enter Your password">
+             
+              <div class="alert alert-danger bg-transparent text-danger mt-3 border-danger d-none text-center ms-5" role="alert">
+                this password is in-valid ,it must contains at least 3 letters and 4 numbers
+              </div>
+              <p class="text-danger mt-2 d-none error">All fields is required</p>
+              <p class="sucess text-success fs-5 d-none">sucess</p>
+          <button class=" btn btn-info  mt-4  rounded-3  bg-transparent mx-auto " id="btn-sum">Sign Up</button>
+         
+          <p class="final text-white mt-3  ps-5 text-center mx-auto">You have an account?<a class=" text-light  link ps-2" href="index1.html" target="_blank">Sign in</a></p>
+       </div>
+
+
+        </div>
+      </div>
+    
+
+    <script src="js/bootstrap.bundle.js"></script> 
+    <script src="js/index.js"></script> 
+</body>
+</html>

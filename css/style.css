@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #24353f;
+    
+}
+
+h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+   
+}
+
+
+
+button{
+    color: #1E98B8 !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 18px !important;
+    transition: all 0.3s;
+    width: 91% !important;
+    height: 40px !important;
+   
+   
+}
+.form-control{
+    width: 88% !important;
+    
+    
+    
+}
+button:hover{
+    color: white !important;
+    background-color:  #1e98b8 !important;
+}
+.container{
+    background-color:#24353f !important ;
+    
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 65%;
+}
+.final{
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+ 
+}
+.link{
+  
+    text-decoration: none !important; 
+    transition: all 1s;
+ 
+}
+.link:hover{
+    text-decoration:underline !important;
+}
+input::placeholder{
+    color: rgb(182, 182, 182) !important;
+
+}
+
+ .alert{
+    width: 88% !important;
+} 
+ .forming{
+    width: 91% !important;
+
+ }
+
+.check{
+    margin-left: 70px; 
+}
+
